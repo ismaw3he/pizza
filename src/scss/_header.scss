@@ -1,0 +1,114 @@
+.header {
+  display: flex;
+  width: 320px;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $headerGray;
+  height: 37px
+
+}
+.navigation__title{
+  font-family: Montserrat;
+  font-size: 12.2px;
+  padding: 11px 12px 12px 18px;
+  color: white;
+}
+
+.navigation__burger{
+
+  width: 52px;
+  background-color: #202529;
+  height: 35.5px;
+  margin-top: 2px;
+  color: white;
+}
+
+.navigation__burger--item{
+  width: 15.55px;
+  height: 2px;
+  background-color: white;
+  margin: 2px auto;
+}
+.burger--first{
+  margin-top: 11.6px;
+}
+.main{
+
+  background-image: url("../img/pizza-header.png");
+  color: white;
+  height: 173px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.main__title{
+  font-family: Lato;
+  font-size: 15.1px;
+  padding-left: 21px;
+  word-spacing: -0.4px;
+  letter-spacing: 0.6px;
+}
+.title--first{
+  padding-top: 17.35px;
+}
+.title--second{
+  padding-top: 8px;
+}
+
+.main__link{
+  font-family: Lato;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #a6d6e0;
+  padding-left: 19px;
+  padding-top: 1px;
+  letter-spacing: -0.1px;
+}
+.options{
+  margin-top: 4px;
+  width: 100%;
+  color: #fff;
+}
+.options-button{
+  height: 75px;
+  display: flex;
+  margin-top: 2px;
+}
+.options-button-main{
+  width: 78%;
+}
+.delivery{
+  background-image: url("../img/delivery.png");
+  background-position: 81% 95%;
+}
+.option-header{
+  font-family: Lato;
+  font-size: 20.4px;
+  margin-left: 63px;
+  margin-top: 25px;
+  //letter-spacing: 0.1px;
+}
+.options-button-arrow{
+  height: 75px;
+  width: 22%;
+  background-color: #acd8ad;
+  display: flex;
+}
+.button-arrow-item{
+  margin-top: 27px;
+  margin-left: 30px;
+}
+
+.salad{
+  background-image: url("../img/salad.png");
+  background-position: 0px 94%;
+}
+
+.desert{
+  background-image: url("../img/desert.png");
+  background-position: 0px 16%;
+}
+

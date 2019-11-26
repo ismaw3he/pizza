@@ -1,0 +1,59 @@
+.menu{
+  width: 320px;
+  font-family: Lato;
+}
+
+.menu-header{
+  margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.menu-header-info{
+  font-size: 10px;
+  margin-top: 3px;
+  margin-left: 9px;
+  color: #d5d6d8;
+}
+
+.card-header{
+  background-color: $headerGray;
+  font-size: 20px;
+  color: #acd8ad;
+  height: 29px;
+  text-transform: uppercase;
+  margin-top: 11px;
+  padding-top: 9px;
+  padding-left: 18px;
+}
+.card-interior{
+  width: 286px;
+  margin-top: 10px;
+  margin-left: 17px;
+  display: flex;
+  flex-direction: column;
+}
+.card-menu-type{
+  display: flex;
+  justify-content: space-between;
+
+}
+.menu-type-header{
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 6px;
+  width: 230px;
+}
+.menu-type-icon{
+  width: 25px;
+  height: 25px;
+}
+
+.menu-single{
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.menu-single-header{
+
+}

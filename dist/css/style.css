@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/** if you have separate file for variables and mixins, or fonts - import it here **/
+.header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 320px; }
+
+.navigation {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #373c3f;
+  height: 37px; }
+
+.navigation__title {
+  font-family: Montserrat;
+  font-size: 12.2px;
+  padding: 11px 12px 12px 18px;
+  color: white; }
+
+.navigation__burger {
+  width: 52px;
+  background-color: #202529;
+  height: 35.5px;
+  margin-top: 2px;
+  color: white; }
+
+.navigation__burger--item {
+  width: 15.55px;
+  height: 2px;
+  background-color: white;
+  margin: 2px auto; }
+
+.burger--first {
+  margin-top: 11.6px; }
+
+.main {
+  background-image: url("../img/pizza-header.png");
+  color: white;
+  height: 173px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.main__title {
+  font-family: Lato;
+  font-size: 15.1px;
+  padding-left: 21px;
+  word-spacing: -0.4px;
+  letter-spacing: 0.6px; }
+
+.title--first {
+  padding-top: 17.35px; }
+
+.title--second {
+  padding-top: 8px; }
+
+.main__link {
+  font-family: Lato;
+  margin-top: 8px;
+  text-decoration: none;
+  color: #a6d6e0;
+  padding-left: 19px;
+  padding-top: 1px;
+  letter-spacing: -0.1px; }
+
+.options {
+  margin-top: 4px;
+  width: 100%;
+  color: #fff; }
+
+.options-button {
+  height: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2px; }
+
+.options-button-main {
+  width: 78%; }
+
+.delivery {
+  background-image: url("../img/delivery.png");
+  background-position: 81% 95%; }
+
+.option-header {
+  font-family: Lato;
+  font-size: 20.4px;
+  margin-left: 63px;
+  margin-top: 25px; }
+
+.options-button-arrow {
+  height: 75px;
+  width: 22%;
+  background-color: #acd8ad;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.button-arrow-item {
+  margin-top: 27px;
+  margin-left: 30px; }
+
+.salad {
+  background-image: url("../img/salad.png");
+  background-position: 0px 94%; }
+
+.desert {
+  background-image: url("../img/desert.png");
+  background-position: 0px 16%; }
+
+.menu {
+  width: 320px;
+  font-family: Lato; }
+
+.menu-header {
+  margin-top: 22px;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.menu-header-info {
+  font-size: 10px;
+  margin-top: 3px;
+  margin-left: 9px;
+  color: #d5d6d8; }
+
+.card-header {
+  background-color: #373c3f;
+  font-size: 20px;
+  color: #acd8ad;
+  height: 29px;
+  text-transform: uppercase;
+  margin-top: 11px;
+  padding-top: 9px;
+  padding-left: 18px; }
+
+.card-interior {
+  width: 286px;
+  margin-top: 10px;
+  margin-left: 17px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.card-menu-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.menu-type-header {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 6px;
+  width: 230px; }
+
+.menu-type-icon {
+  width: 25px;
+  height: 25px; }
+
+.menu-single {
+  margin-top: 16px;
+  font-size: 14px; }
+
+/** MEDIA **/
